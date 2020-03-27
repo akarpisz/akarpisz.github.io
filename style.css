@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color:  greenyellow;
+}
+body {
+    background-color: black;
+}
+
+#top {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   height: 50%;
+   position: absolute;
+}
+

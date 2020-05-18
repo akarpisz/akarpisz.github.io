@@ -1,9 +1,10 @@
-const jumbo1 = $("span#fade1");
+const jumbo1 = $("h2#fade1");
 const jumbo2 = $("span#fade2");
 const jumbo3 = $("span#fade3");
 const jumbo4 = $("span#fade4");
 const jumbo5 = $("span#fade5");
 const btn = $("#start");
+
 
 $(document).ready(() => {
     jumbo1.hide();
@@ -11,6 +12,7 @@ $(document).ready(() => {
     jumbo3.hide();
     jumbo4.hide();
     jumbo5.hide();
+
     $(btn).on("click", function() {
         btn.hide();
         jumbo1.delay(400*0).fadeIn("slow");

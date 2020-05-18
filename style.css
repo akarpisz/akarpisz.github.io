@@ -6,6 +6,8 @@ h2 h3 h4 {
 }
 body {
     background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
 }
 
 
@@ -47,5 +49,27 @@ footer{
 .content-main {
     margin: .1rem .3rem .1rem .3rem;
 }
+.tech{
+    margin: 20px;
+    padding: 20px;
+    border: .2rem;
+    border-style: double;
+    border-color: black;
+}
+.jumbotron{
+    background: linear-gradient(90deg, red,yellow,green);
+}
+
+#start:hover{
+    cursor: crosshair;
+}
+p {
+    border: .2rem;
+    border-style: ridge;
+    border-color: black;
+    border-width: 5px;
+    margin: 10px;
+}
+
 
 

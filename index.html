@@ -10,7 +10,7 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
     <script
       src="https://code.jquery.com/jquery-3.5.1.js"
       integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
@@ -18,12 +18,12 @@
     ></script>
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <a class="navbar-brand" href="https://andrewak.com">
             <img
-              src="./logo.png"
+              src="./assets/logo.png"
               width="30"
               height="30"
               class="d-inline-block align-top"
@@ -98,9 +98,122 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-8 left col-sm-12 col-xs-12">
+        <div class="col-md-4 left col-sm-12 col-xs-12">
           <div class="row">
-            <div class="col content-main tech">
+            <aside class="col content-side">
+              <img src="./assets/me.png" height="100%" width="100%" />
+              <span>Andrew Karpisz</span>
+            </aside>
+          </div>
+          <br />
+          <div class="row">
+            <aside class="col content-side">
+              <h3>Contact:</h3>
+              <br />
+              <span> Phone - (303) 656-6427 </span><br />
+              <span><a href="mailto: andrew.karpisz@gmail.com">Gmail</a></span>
+              <span>
+                <a href="https://github.com/akarpisz" target="_blank"
+                  >Github</a
+                > </span
+              ><br />
+              <span>
+                <a href="https://twitter.com/TheAndrewAK" target="_blank"
+                  >Twitter</a
+                > </span
+              ><br />
+              <span>
+                <a
+                  href="https://www.linkedin.com/in/the-andrew-ak"
+                  target="_blank"
+                  >LinkedIn</a
+                > </span
+              ><br />
+              <span>
+                <a href="./assets/AKResume.pdf" target="_blank">Resume (PDF)</a> </span
+              ><br />
+              <span>
+                <a href="https://andrewak.com" target="_blank">Blog</a></span
+              ><br />
+            </aside>
+          </div>
+          <div class="row">
+            <aside class="col content-side">
+              <p>
+                I live in Denver, CO and am currently enrolled in the
+                University of Denver's Coding Bootcamp, studying Web
+                Development. In my freetime, I learn about coding and computer
+                science, run around with my 3 year-old daughter, go jogging, get
+                tattoos, and read about the world around us (biology, botany,
+                chemistry, astronomy, physics etc.).
+              </p>
+            </aside>
+          </div>
+          <div class="row">
+            <div class="col content-main block">
+              <h3>Interests</h3>
+              <br />
+              <ul>
+                <li>React-Native</li>
+                <li>Software Engineering</li>
+                <li>Mobile Development (Android mainly)</li>
+                <li>Java</li>
+              </ul>
+              <br /><br />
+              <h3>Career Goals:</h3>
+              <br />
+              <ul>
+                <li>Security+, Networking+, and Linux+ Certifications</li>
+                <li>Ethical Hacker Certification</li>
+                <li>Bachelors in Computer Science</li>
+                <li>Masters Degree, CS and/or Cyber-Security (TBD)</li>
+              </ul>
+            </div>
+          </div>g
+        </div>
+        <div class="col-md-8 right col-sm-12 col-xs-12">
+          <div class="row">
+            <div class="col">
+              <section>
+                <h3>Brews and Blues (Brewery and Concert Search Engine)</h3>
+                <p>
+                  This is a search engine for those looking to plan a night out. Using the Zomato API and the Ticketmaster API, a user can click "allow" in the location access prompt, and receive information about the breweries and concerts closest to them. If a user desires to narrow down search results further, they can input keywords to use in conjunction with their location.
+                </p>
+                <ul>
+                  <li><a href="https://github.com/akarpisz/masterproject1" target="_blank">Code</a></li>
+                  <li><a href="https://akarpisz.github.io/masterproject1" target="_blank">Deployed</a></li>
+                </ul>
+                <img src="./assets/BnBsearch.jpg" alt="application screenshot brews and blues search" />
+                
+              </section><br/>
+              <section>
+                <h3> Secure Password Generator</h3>
+                <p>
+                  Coming up with a secure password can be annnoying, but in today's day and age it's necessary. I've made it even easier. Just select your password length with the slider (min - 8 characters , max - 128 characters), choose what types of characters to include in the password (Upper- and/or lowercase letter, numbers, special characters). Once you hit the button, a randomly generated password is generated and displayed for you.
+                </p>
+                <ul>
+                  <li><a href="https://github.com/akarpisz/homework3" target="_blank">Code</a></li>
+                  <li><a href="https://akarpisz.github.io/homework3" target="_blank">Deployed</a></li>
+                </ul>
+                <img src="./assets/P-gen.jpg" alt="secure password generator application screenshot" />
+              </section>
+              <section>
+                <h3>Day Planner</h3>
+                <p>
+                  Want to plan out your day? My simple day planner uses the momentJS library to color code the time blocks. Anything that has passed is gray, anything within the present hour is red, and the future is colored green. Your input is saved to local storage, so there's no loss of your information if you reload the page or close the browser.
+                </p>
+                <ul>
+                  <li><a href="https://github.com/akarpisz/homework5" target="_blank">Code</a></li>
+                  <li><a href="https://akarpisz.github.io/homework5" target="_blank">Deployed</a></li>
+                </ul>
+                <img src="./assets/dayPlan.jpg" alt="Day planner application screenshot" />
+                
+              </section>
+              <!-- add readmes to those projects, along with descriptions and deployed link-->
+            </div>
+          </div>
+          <div class="row">
+            <div class="col content-main block">
               <h3>Web Development Technologies Used:</h3>
               <br />
               <h4>Front-End:</h4>
@@ -120,70 +233,8 @@
               </ul>
             </div>
           </div>
-          <div class="row">
-            <div class="col content-main tech">
-              <h3>Interests</h3>
-              <br />
-              <ul>
-                <li>React-Native</li>
-                <li>Software Engineering</li>
-                <li>Mobile Development (Android mainly)</li>
-                <li>Java</li>
-              </ul>
-              <br /><br />
-              <h3>Career Goals:</h3>
-              <br />
-              <ul>
-                <li>Security+, Networking+, and Linux+ Certifications</li>
-                <li>Ethical Hacker Certification</li>
-                <li>Bachelors in Computer Science</li>
-                <li>Masters Degree, CS and/or Cyber-Security (TBD)</li>
-              </ul>
-            </div>
-          </div>
         </div>
-        <div class="col-md-4 right col-sm-12 col-xs-12">
-          <div class="row">
-            <aside class="col content-side">
-              <img src="./me.png" height="100%" width="100%" />
-            </aside>
-          </div>
-          <div class="row">
-            <aside class="col content-side">
-              <h3>Contact:</h3>
-              <br />
-              <span> Phone - (303) 656-6427 </span><br />
-              <span>
-                <a href="https://github.com/akarpisz" target="_blank"
-                  >Github</a
-                > </span
-              ><br />
-              <span>
-                <a href="https://twitter.com/TheAndrewAK" target="_blank"
-                  >Twitter</a
-                > </span
-              ><br />
-              <span>
-                <a
-                  href="https://www.linkedin.com/in/the-andrew-ak"
-                  target="_blank"
-                  >LinkedIn</a
-                > </span
-              ><br />
-              <span>
-                <a href="https://andrewak.com" target="_blank">Blog</a> </span
-              ><br />
-            </aside>
-          
-          </div>
-          <div class="row">
-             <aside class="col content-side">
-                 <p>
-                     I'm Andrew. I live in Denver, CO. I'm currently enrolled in the University of Denver's Coding Bootcamp, studying Web Development. In my freetime, I learn about coding and computer science, run around with my 3 year-old daughter, go jogging, get tattoos, and read about the world around us (biology, botany, chemistry, astronomy, physics etc.).
-                 </p>
-             </aside>   
-          </div>
-        </div>
+        
       </div>
     </div>
 
@@ -193,7 +244,7 @@
       </div>
     </footer>
 
-    <script src="main.js"></script>
+    <script src="./assets/main.js"></script>
   </body>
 </html>
 <!-- <img id="top" src="https://images.pexels.com/photos/1096925/pexels-photo-1096925.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"> -->

@@ -25,18 +25,18 @@ $(document).ready(() => {
   $(btn).on("click", function () {
     btn.hide();
     jumbo1.delay(400 * 0).fadeIn("slow");
-    jumbo2.delay(400 * 1.5).fadeIn("slow");
-    jumbo3.delay(400 * 3).fadeIn("slow");
-    jumbo4.delay(400 * 4.5).fadeIn("slow");
-    jumbo5.delay(400 * 6).fadeIn("slow");
+    jumbo2.delay(400 * 1).fadeIn("slow");
+    jumbo3.delay(400 * 2).fadeIn("slow");
+    jumbo4.delay(400 * 3).fadeIn("slow");
+    jumbo5.delay(400 * 4).fadeIn("slow");
     $(".left")
-      .delay(400 * 9)
+      .delay(400 * 5)
       .fadeIn("slow");
     $(".right")
-      .delay(400 * 9)
+      .delay(400 * 5)
       .fadeIn("slow");
     $("footer")
-      .delay(400 * 10)
+      .delay(400 * 6)
       .fadeIn("slow");
   });
 });
